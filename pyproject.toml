@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kafka-streamka"
-version = "0.0.0a0"
+version = "0.0.0a1"
 description = "Kafka Steams API implementation for Python (using confluent-kafka)."
 license = "AGPL-3.0"
 authors = ["and-ratajski <and.ratajski@effiware.com>"]
