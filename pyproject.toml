@@ -10,7 +10,7 @@ repository = "https://github.com/Effiware/kafka-streamka"
 packages = [{include = "kafka_streamka"}]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
     "Operating System :: OS Independent",
 ]
 
