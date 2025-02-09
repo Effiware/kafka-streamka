@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "kafka-streamka"
+version = "0.0.0a0"
+description = "Kafka Steams API implementation for Python (using confluent-kafka)."
+license = "AGPL-3.0"
+authors = ["and-ratajski <and.ratajski@effiware.com>"]
+readme = "README.md"
+homepage = "https://github.com/Effiware/kafka-streamka/wiki"
+repository = "https://github.com/Effiware/kafka-streamka"
+packages = [{include = "kafka_streamka"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+confluent-kafka = "^2.4.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+pytest-env = "^1.1.5"
+pytest-cov = "^6.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
